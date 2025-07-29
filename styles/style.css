@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "tailwindcss";
 
 .roboto {
     font-family: "Roboto", sans-serif;
@@ -7,4 +8,9 @@
 
 .bebas {
     font-family: "Bebas Neue", sans-serif;
+}
+
+.buy-now {
+    background: linear-gradient(180.00deg, rgb(164, 188, 70), rgb(133, 160, 25) 100%);
+    ;
 }
