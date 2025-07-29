@@ -7,16 +7,18 @@
     <title>Penguin Fashion Shop</title>
     <link rel="shortcut icon" href="icons/house.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://kit.fontawesome.com/8f6dc4d4e3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
     <header class="bg-[#FFFBF0]">
-        <nav class="flex justify-between items-center pt-10 px-32">
+        <nav class="flex justify-between items-center pt-5 px-2 sm:justify-between sm:pt-10 sm:px-32">
             <div>
                 <img class="w-62" src="icons/logo.png" alt="">
             </div>
-            <div>
+            <div class="hidden sm:block">
                 <ul class="flex gap-6 roboto font-base font-medium">
                     <li>Home</li>
                     <li>Product</li>
@@ -24,17 +26,21 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
+            <div class="sm:hidden font-bold text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <!-- Banner section -->
         <div class="flex justify-center items-center gap-38 mt-10 pb-10 ">
             <div>
                 <h1 class="text-7xl bebas"><span class="text-[#FABE4C]">BE THE PPENGUINS</span><br> <span
                         class="text-[#363958]">OF WITER</span></h1>
-                <p>
+                <p class="text-[#3E3E3E] roboto">
                     Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry.
                 </p>
-                <button class="buy-now w-42 flex justify-center items-center py-4 gap-2 rounded-lg mt-3"><img
+                <button
+                    class="buy-now w-42 flex justify-center items-center py-4 gap-2 rounded-lg mt-3 text-amber-50"><img
                         class="w-5" src="icons/shopping-cart 1.png" alt="">BUY NOW</button>
             </div>
             <div class="mr-11">
